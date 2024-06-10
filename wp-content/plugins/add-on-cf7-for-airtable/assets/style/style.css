@@ -1,0 +1,111 @@
+/*
+* Tabs for integration modules
+*/
+#wpc-airtable-panel{
+    position: relative;
+}
+
+.wpc-wpcf7-airtable-wpco-icon{
+    position: absolute;
+    right: 20px;
+}
+.wpc-wpcf7-airtable-wpco-icon img{
+    width: 150px;
+}
+
+#wpc-airtable-panel table tr.inactive ~ tr {
+    display: none;
+}
+
+#wpc-airtable-panel .dashicons {
+    text-decoration: none;
+}
+#wpc-airtable-panel .form-table th {
+    width: 160px !important;
+}
+
+#wpc-airtable-panel td p {
+    margin-top: 12px;
+}
+
+#wpc-airtable-panel .is-mapped {
+    color: #00A32A;
+}
+
+#wpc-airtable-panel .is-error {
+    color: #D63638;
+}
+#wpc-airtable-panel .is-warning {
+    /* color: #DBA617; */
+    color: #00A32A;
+}
+
+.wpc-wpcf7-airtable-dismiss-link{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 9px;
+    font-size: 12px;
+}
+
+.wpc-wpcf7-airtable-tooltip{
+    position: relative;
+    display: inline-block;
+}
+.wpc-wpcf7-airtable-tooltip a{
+    color: #fff;
+}
+.wpc-wpcf7-airtable-tooltiptext{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    max-width:14em;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    margin-bottom: 10px;
+    padding:.625rem 1rem;
+    background-color: rgba(28,31,63,.9);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow:0 4px 10px rgba(18,25,97,.07);
+    font:400 .8125rem "Open Sans",sans-serif;
+    text-align: center;
+    line-height:1.5em;
+    mix-blend-mode:normal;
+    opacity: 0;
+    transition: .3s;
+
+}
+.wpc-wpcf7-airtable-tooltip:hover .wpc-wpcf7-airtable-tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+
+.wpc-wpcf7-airtable-tooltip:after {
+    content: "";
+    position:absolute;
+    left:100%;
+    margin-left:-20px;
+    top:0%;
+    transform:translateY(-50%);
+    border:10px solid #000;
+    border-color: rgba(28,31,63,.9) transparent transparent transparent;
+    display:none;
+    opacity: 0;
+    transition: .1s;
+}
+.wpc-wpcf7-airtable-tooltip:hover:before, .wpc-wpcf7-airtable-tooltip:hover:after {
+    display:block;
+    opacity: 1;
+}
+
+
+#wpc-wpcf7-airtable-setup-table.is-disabled tr:not(.wpc-wpcf7-airtable-enabled-field-block),
+#wpc-wpcf7-airtable-fields-table.is-disabled {
+	display: none;
+}
+li#wpc-airtable-panel-tab{
+    border-top: 2px solid #19C0FF !important;
+}

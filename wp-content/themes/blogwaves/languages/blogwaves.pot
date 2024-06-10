@@ -1,0 +1,418 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"blogwaves\n"
+"POT-Creation-Date: "
+"2021-01-21 15:59+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.1.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: 404.php:18
+msgid ""
+" Oops! Page Not Found"
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"Sorry but the page you "
+"are looking for is not "
+"found. Please make sure "
+"you have typed the "
+"correct URL."
+msgstr ""
+
+#: 404.php:22
+msgid "Back To Home"
+msgstr ""
+
+#: archive.php:34
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid ""
+"One thought on &ldquo;"
+"%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid ""
+"%1$s thought on &ldquo;"
+"%2$s&rdquo;"
+msgid_plural ""
+"%1$s thoughts on &ldquo;"
+"%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:54
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:128
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:130
+#: functions.php:141
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:139
+msgid "Footer Widgets"
+msgstr ""
+
+#: header.php:32
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid ""
+"Blogwaves Theme Options"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Top Header Options"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid ""
+"Personalize the settings "
+"top header."
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "Display Top Header"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid ""
+"Display Top Header Menu"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid ""
+"Display Top Header Date"
+msgstr ""
+
+#: inc/customizer.php:99
+msgid ""
+"Display Top Header "
+"Social Icons"
+msgstr ""
+
+#: inc/customizer.php:108
+#: inc/customizer.php:122
+#: inc/customizer.php:136
+#: inc/customizer.php:150
+msgid "#"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer.php:169
+msgid ""
+"Display Social URL in "
+"new Window"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid "General Options"
+msgstr ""
+
+#: inc/customizer.php:182
+msgid ""
+"Personalize the settings "
+"of your theme."
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Read More Label"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "55"
+msgstr ""
+
+#: inc/customizer.php:205
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid ""
+"0 length will not show "
+"the excerpt."
+msgstr ""
+
+#: inc/customizer.php:214
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid ""
+"Personalize the layout "
+"settings of your theme."
+msgstr ""
+
+#: inc/customizer.php:222
+msgid "wide"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/customizer.php:228
+msgid ""
+"Box layout will be "
+"visible at minimum "
+"1200px display"
+msgstr ""
+
+#: inc/customizer.php:233
+msgid "Wide"
+msgstr ""
+
+#: inc/customizer.php:234
+msgid "Box"
+msgstr ""
+
+#: inc/customizer.php:240
+msgid "right"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:251
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer.php:258
+msgid "Blog Post Options"
+msgstr ""
+
+#: inc/customizer.php:261
+msgid ""
+"Setting will also apply "
+"on archieve and search "
+"page."
+msgstr ""
+
+#: inc/customizer.php:271
+#: inc/customizer.php:344
+msgid "Display Author"
+msgstr ""
+
+#: inc/customizer.php:284
+#: inc/customizer.php:357
+msgid "Display Date"
+msgstr ""
+
+#: inc/customizer.php:297
+#: inc/customizer.php:370
+msgid ""
+"Display Comments Count"
+msgstr ""
+
+#: inc/customizer.php:310
+#: inc/customizer.php:396
+msgid ""
+"Display Featured Image"
+msgstr ""
+
+#: inc/customizer.php:318
+msgid "Single Post Options"
+msgstr ""
+
+#: inc/customizer.php:321
+msgid ""
+"Setting will apply on "
+"the content of single "
+"posts."
+msgstr ""
+
+#: inc/customizer.php:331
+msgid "Display Categories"
+msgstr ""
+
+#: inc/customizer.php:383
+msgid "Display Tags"
+msgstr ""
+
+#: inc/customizer.php:404
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer.php:407
+msgid ""
+"Personalize the footer "
+"settings of your theme."
+msgstr ""
+
+#: inc/customizer.php:417
+msgid ""
+"Display Copyright Footer"
+msgstr ""
+
+#: inc/customizer.php:425
+msgid ""
+"Copyright © 2020 Powered "
+"by WordPress"
+msgstr ""
+
+#: inc/customizer.php:430
+msgid "Copyright"
+msgstr ""
+
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:70
+msgctxt ""
+"list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:83
+#, php-format
+msgid ""
+"Leave a Comment<span "
+"class=\"screen-reader-"
+"text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:100
+#, php-format
+msgid ""
+"Edit <span class="
+"\"screen-reader-text\">"
+"%s</span>"
+msgstr ""
+
+#: search.php:34
+#, php-format
+msgid ""
+"Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your "
+"first post? <a href="
+"\"%1$s\">Get started "
+"here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing "
+"matched your search "
+"terms. Please try again "
+"with some different "
+"keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t "
+"find what you&rsquo;re "
+"looking for. Perhaps "
+"searching can help."
+msgstr ""

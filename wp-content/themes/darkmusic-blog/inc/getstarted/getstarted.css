@@ -1,0 +1,359 @@
+/*About theme*/
+.appearance_page_darkmusic_blog_guide{
+	background: #fff;
+}
+.wrapper-info {
+    margin-top: 20px;
+}
+.col-left{
+	width: 65%;
+	float: left;
+}
+.col-right {
+    width: 30%;
+    float: right;
+    padding: 5px;
+    margin: 0px 20px;
+    background: #f6f6f6;
+    border: solid 1px #ddd;
+}
+.wrapper-info h2 {
+    color: #ff0076;
+    font-size: 28px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+span.version {
+    font-size: 15px;
+    color: #333;
+}
+.logo {
+    margin: 5px 0;
+}
+.col-left p {
+    font-size: 20px;
+    color: #333;
+}
+/*Tab Button*/
+.tab{
+    margin-top: 20px;
+}
+td.update-link, .info-link a, .col-left-pro a, a.vw-pattern-page-btn.button-primary.button, .darkmusic-blog-recommended-plugins a.button {
+    padding: 3px 27px;
+    font-weight: bold;
+    font-size: 15px;
+    background: linear-gradient(#f30065,#2c6f93);
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+    line-height: 2.15384615;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.tab button{
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+    line-height: 2.15384615;
+    border-radius: 3px;
+    cursor: pointer;
+    background: linear-gradient(#eee,#cacaca);
+    color: #ff0076;
+    padding: 3px 12px !important; 
+}
+button.tablinks.active {
+    background: linear-gradient(#6ccef5,#016194);
+    color: #fff;
+}
+.info-link a:hover, .col-left-pro a:hover, td.update-link:hover, a.vw-pattern-page-btn.button-primary.button:hover{
+    background: #000 !important;
+}
+
+.admin_text-btn p {
+    text-align: center;
+}
+button.tablinks:focus {
+    outline: none;
+}
+td.update-link {
+    padding: 0 !important;
+    display: block;
+    text-align: center;
+}
+td.update-link a {
+    color: #fff;    
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.darkmusic-blog-pattern-page {
+    margin-top: 20px;
+}
+#install_ibtana-visual-editor h3, #install_ibtana-ecommerce-product-addons h3{
+    margin: 0px 0 20px;
+}
+hr.h3hr {
+    width: 10%;
+    border-top: 2px solid;
+    margin: 0;
+}
+.tab-sec h3 {
+    color: #ff0076;
+    font-size: 25px;
+    margin: 35px 0 10px;
+}
+.tab-sec p {
+    font-size: 16px;
+    color: #333;
+}
+.col-right-inner h3{
+    margin-top: 0;
+}
+.col-right-inner {
+    width: 60%;
+    float: right;
+    padding: 0 20px;
+}
+.col-left-inner {
+    width: 36%;
+    float: left;
+}
+.col-left-inner, .col-right-inner{
+    margin: 20px 0px 0px 0px;
+}
+.col-right-inner img {
+    width: 100%;
+    box-shadow: 0 0 15px 1px #bbb;
+    margin: 20px 0px 20px 0px;
+}
+#gutenberg_editor img {
+    width: 60%;
+    box-shadow: 0 0 15px 1px #bbb;
+}
+.col-left-inner h4,
+.admin_text-btn h4,
+.col-3 h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.admin_text-btn span {
+    color: red;
+    font-size: 23px;
+}
+.admin_text-btn h4{
+    text-align: center;
+    color: #ff0076;
+    font-weight: 800;
+    line-height: 30px;
+    font-size: 21px;
+    padding: 12px;
+}
+.col-left-inner p {
+    font-size: 14px;
+    margin: 8px 0;
+}
+.info-link {
+    margin: 20px 0;
+}
+.col-right .info-link,
+.logo{
+    text-align: center;
+}
+.table-image {
+    padding: 20px;
+}
+.col-left-pro {
+    width: 40%;
+    float: left;
+}
+.col-right-pro {
+    width: 55%;
+    float: right;
+    padding: 15px;
+}
+.pro-links {
+    margin: 3em 0;
+}
+.pro-links a {
+    margin-right: 8px;
+    padding: 10px 15px;    
+}
+.tabcontent {
+    display: none;
+}
+.open {
+    display: block ;
+}
+.tab-sec,
+.featurebox {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.col-left-pro p {
+    margin-top: 25px;
+}
+.innerbox {
+    margin: 30px 0;
+}
+/*Table CSS*/
+.tablebox td {
+    padding: 15px 10px;
+    font-size: 18px;
+    color: #000;
+    border: solid 1px #fbc5c5;
+}
+td.table-img {
+    text-align: center;
+}
+tr.odd {
+    background: #eee;
+}
+.tablebox th {
+    padding: 15px;
+    background: #eee;
+    color: #000;
+    font-size: 20px;
+    border: solid 1px #fbc5c5;
+}
+
+.featurebox h3 {
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+}
+table.tablebox {
+    border: solid 1px #fbc5c5;
+    padding: 2px;
+    width: 100%;
+}
+.tablebox span.dashicons.dashicons-saved, .tablebox span.dashicons.dashicons-no{
+    font-size: 25px;
+    line-height: inherit;
+    font-weight: 600;
+    width: auto;
+    height: auto;
+}
+.tablebox span.dashicons.dashicons-saved{
+    color: #24a562;
+}
+.tablebox span.dashicons.dashicons-no{
+    color: #db1601;
+}
+/*Support CSS*/
+.col-3 {
+    width: 28%;
+    float: left;
+    padding: 10px;
+    border: solid 1px #ddd;
+    margin: 25px 10px;
+}
+#lite_pro .dashicons {
+    margin-right: 5px;
+}
+.row-box1 {
+    float: left;
+    width: 52%;
+}
+.first-row {
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    background: #f6f6f6;
+}
+.row-box {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 8px;
+    font-size: 14px;
+}
+.row-box span {
+    margin-right: 8px;
+    color: #000;
+}
+.row-box a {
+    text-decoration: none;
+}
+a.doc-links {
+    color: #ff0076;
+}
+a.doc-links:hover {
+    color: #00a0d2;
+}
+.notice.notice-success.is-dismissible.welcome-notice span a{
+    margin: 10px 10px 10px 0px;
+}
+.notice.notice-success.is-dismissible.welcome-notice span.upgrade-btn a{
+    background-color: #00a32a;
+    border-color: #00a32a;
+}
+.notice.notice-success.is-dismissible.welcome-notice span.demo-btn a{
+    background-color: #dba617;
+    border-color: #dba617;
+}
+/* -------- Ibtana gutenberg link to customizer --------- */
+.link-customizer-with-guternberg-ibtana {
+    width: 50%;
+}
+/* -------- Block pattern link to customizer--------- */
+.block-pattern-img {
+    width: 55%;
+    float: left;
+}
+#block_pattern img {
+    width: 100%;
+    box-shadow: 0 0 15px 1px #bbb;
+    margin-top: 25px;
+}
+.block-pattern-link-customizer {
+    width: 40%;
+    float: right;
+    padding: 0 25px;
+}
+.block-pattern-link-customizer h3{
+    margin: 25px 0 10px;
+}
+#product_addons_editor img {
+    width: auto;
+    box-shadow: 0 0 15px 1px #bbb;
+    margin-top: 10px;
+}
+/* -------- Plugin Activation Css --------- */
+.darkmusic-blog-recommended-plugins .darkmusic-blog-action-list{
+    max-width: 735px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 10px #e2e2e2;
+    margin-top: 31px;
+}
+.darkmusic-blog-recommended-plugins .action-link,.darkmusic-blog-recommended-plugins a.button{
+    padding: 10px 56px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.darkmusic-blog-recommended-plugins .action-link span{
+    position: relative;
+    top: 5px;
+}
+.darkmusic-blog-recommended-plugins .ibtana-skip-btn{
+    padding: 16px 56px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #0071a1;
+    background: #eaf0f3;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.lite-theme-tab,.gutenberg-editor-tab{
+    display: none;
+}
+
+.appearance_page_darkmusic_blog_guide .notice.notice-success.is-dismissible.welcome-notice{
+    display: none;
+}

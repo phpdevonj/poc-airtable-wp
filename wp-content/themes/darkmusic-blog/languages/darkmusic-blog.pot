@@ -1,0 +1,157 @@
+# Copyright (C) 2023 CA WP Themes
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Darkmusic Blog 1.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/darkmusic-blog\n"
+"POT-Creation-Date: 2023-04-30 15:18:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+
+#: template-parts/header/header-file.php:17
+msgid "Toggle menu"
+msgstr ""
+
+#: page-template/blog-page.php:28
+msgid "Previous page"
+msgstr ""
+
+
+#: page-template/blog-page.php:29
+msgid "Next page"
+msgstr ""
+
+#: page-template/blog-page.php:30
+msgid "Page"
+msgstr ""
+
+#: category.php:24
+msgid "Read More"
+msgstr ""
+
+
+#: category.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: single.php:39
+msgid "Share:"
+msgstr ""
+
+#: single.php:36
+msgid "Tags"
+msgstr ""
+
+
+#: archive.php:35
+msgid "Tags"
+msgstr ""
+
+#: archive.php:35
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+
+#: comments.php:38
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:39
+msgid "Newer Comments &rarr"
+msgstr ""
+
+
+#: index.php:32
+msgid "Page"
+msgstr ""
+
+
+#: index.php:32
+msgid "Previous page"
+msgstr ""
+
+
+#: index.php:33
+msgid "Next page"
+msgstr ""
+
+
+#: index.php:49
+msgid "Tags"
+msgstr ""
+
+#: index.php:53
+msgid "Previous Post"
+msgstr ""
+
+
+#: index.php:54
+msgid "Next Post"
+msgstr ""
+
+#: content.php:54
+msgid "Continue reading"
+msgstr ""
+
+
+
+#: custom-customizer.php:48
+msgid "Theme Details"
+msgstr ""
+
+#: custom-customizer.php:50
+msgid "Documentation"
+msgstr ""
+
+#: custom-customizer.php:51
+msgid "Demo"
+msgstr ""
+
+#: custom-customizer.php:52
+msgid "Need Support"
+msgstr ""
+
+
+#: inc/custom-customizer.php:52 
+#: inc/custom-customizer.php:48 
+#: inc/custom-customizer.php:51 
+#: inc/custom-customizer.php:50
+msgid "Click Here"
+msgstr ""
+
+
+#: inc/custom-customizer.php:74
+msgid "Would you like to enhance the appearance and functionality of your website with an extended range of color options, font styles, and the ability to modify your footer copyright information? Consider upgrading to the pro version of your current theme, which may also include premium support and additional features to further customize your website."
+msgstr ""
+
+#: inc/custom-customizer.php:85
+msgid "Upgrade to Premium Version"
+msgstr ""
+
+
+#: content.php:54
+msgid "Pages"
+msgstr ""
+
+
+
+#: functions.php:128
+msgid "Design & Developed by"
+msgstr ""
+
+
+

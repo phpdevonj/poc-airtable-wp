@@ -1,0 +1,436 @@
+/*-------------------------My Menu-----------------------*/
+
+/*======================MAIN NAVIGATION======================*/
+
+.main-navigation ul li a:hover{
+    color: #d50259;
+}
+
+.main-navigation .toggle-button {
+    display: none;
+}
+
+.main-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-navigation ul li {
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.main-navigation ul li a {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.main-navigation ul ul li.menu-item-has-children>a {
+    padding-right: 30px;
+}
+
+.main-navigation ul li:hover>a,
+.main-navigation ul li.current-menu-item>a,
+.main-navigation ul li.current_page_item>a {
+    color: #fff;
+}
+
+    /*-------------For Sub menu ---*/
+
+
+/* Apply styles when .submenu-toggle receives focus via Tab button */
+.main-navigation ul li .submenu-toggle:focus,
+.main-navigation ul li .submenu-toggle:focus-visible {
+  /* Add your styles here */
+  /* For example, change background color and add outline */
+  background-color: #f2f2f2;
+  outline: 2px solid #000 !important; 
+}
+
+span.iconmenu {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 1025px) {
+
+    .main-navigation .primary-menu-list,
+    .main-navigation ul ul {
+        display: block !important;
+    }
+
+    .primary-menu-list .close {
+        display: none;
+    }
+
+    .main-navigation ul li .submenu-toggle,
+    .main-navigation ul li .submenu-toggle:focus {
+        pointer-events: none;
+        outline: none;
+    }
+}
+
+.main-navigation ul ul {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    text-align: left;
+    width: 230px;
+    z-index: 99;
+    opacity: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+    transition: all ease 0.35s;
+}
+
+.main-navigation ul li:hover>ul,
+.main-navigation ul li.focused>ul {
+    top: 100%;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    clip: unset;
+}
+
+.main-navigation ul ul ul {
+    left: 110%;
+    top: 0;
+    padding-left: 3px;
+}
+
+.main-navigation ul ul li:hover>ul,
+.main-navigation ul ul li.focused>ul {
+    top: 0;
+    left: 100%;
+}
+
+.main-navigation ul.nav-menu li ul:before,
+.main-navigation ul.nav-menu li ul:after {
+    content: "";
+    border-bottom: 8px solid rgba(0, 0, 0, 0.1);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    top: -9px;
+    left: 20px;
+}
+
+.main-navigation ul.nav-menu li ul:after {
+    border-bottom-color: #fff;
+    top: -7px;
+}
+
+.main-navigation ul.nav-menu ul ul:before,
+.main-navigation ul.nav-menu ul ul:after {
+    display: none;
+}
+
+.main-navigation ul ul li {
+    display: block;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-top: -1px;
+}
+
+.main-navigation ul ul li a {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    color: #3f3b36;
+}
+
+.main-navigation ul ul li:hover>a,
+.main-navigation ul ul li.current-menu-item>a,
+.main-navigation ul ul li.current_page_item>a {
+    color: var(--primary-color);
+}
+
+.main-navigation ul li .submenu-toggle {
+    font-size: 10px;
+    position: absolute;
+    top: 17px;
+    right: 2px;
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    padding: 0;
+    border: none;
+}
+
+.main-navigation ul ul li .submenu-toggle {
+    right: 10px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+/*----------------------------------------My Menu End------------------*/
+
+
+@media screen and (max-width: 1024px) {
+
+
+  .main-navigation ul li .submenu-toggle{
+    color: #000;
+  }
+
+
+        header#Main-head-class {
+    position: relative;
+    top: 0px;
+}
+
+
+  /* ---------My Menu------------------   */
+
+    /*=====================
+    MAIN NAVIGATION
+    =====================*/
+    .main-navigation {
+        position: relative;
+        margin-left: -2%;
+        margin-right: -2%;
+    }
+
+    .main-navigation .toggle-button {
+        display: block;
+        background: none;
+        padding: 0 0 0 60px;
+        width: auto;
+        height: 50px;
+        position: relative;
+        border: none;
+        color: #000;
+        text-align: left;
+    }
+
+    .main-navigation .toggle-button:hover {
+        color: var(--primary-color);
+    }
+
+    .main-navigation .toggle-button .toggle-bar {
+        background: #fff;
+        height: 3px;
+        width: 30px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 15px;
+        margin: auto;
+        -webkit-transition: all ease 0.35s;
+        -moz-transition: all ease 0.35s;
+        transition: all ease 0.35s;
+    }
+
+    .main-navigation .toggle-button .toggle-text+.toggle-bar {
+        top: -15px;
+    }
+
+    .main-navigation .toggle-button .toggle-bar:last-child {
+        top: 15px;
+    }
+
+    .main-navigation .toggle-button:hover .toggle-bar {
+        background: var(--primary-color);
+    }
+
+    .main-navigation .close {
+        color: inherit;
+        position: absolute;
+        top: 20px;
+        right: 15px;
+        width: 35px;
+        height: 35px;
+        background: #f5f5f5;
+        z-index: 9999999;
+        cursor: pointer;
+        -webkit-transition: all ease 0.35s;
+        -moz-transition: all ease 0.35s;
+        transition: all ease 0.35s;
+    }
+
+    .main-navigation.menu-toggled .close {
+        left: 20px;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        visibility: visible;
+    }
+
+    .main-navigation .close:hover {
+        background: var(--primary-color);
+    }
+
+    .main-navigation .close::before,
+    .main-navigation .close::after {
+        content: "";
+        background: #000;
+        width: 20px;
+        height: 3px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition: all ease 0.35s;
+        -moz-transition: all ease 0.35s;
+        transition: all ease 0.35s;
+    }
+
+    .main-navigation .close::after {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .main-navigation .close:hover::before,
+    .main-navigation .close:hover::after {
+        background: #fff;
+    }
+
+    .main-navigation .primary-menu-list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff;
+        z-index: 999999;
+        overflow: auto;
+        padding-top: 80px;
+        box-shadow: 0px 30px 40px -15px rgba(0, 0, 0, 0.3);
+        text-align: left;
+        width: 320px;
+        height: 100%;
+        overflow: auto;
+        display: none;
+    }
+
+    .main-navigation .mobile-menu {
+        width: 320px;
+    }
+
+    .main-navigation .primary-menu-list ul {
+        text-align: left;
+    }
+
+    .main-navigation ul li {
+        display: block;
+    }
+
+
+    .main-navigation ul li:hover>a, .main-navigation ul li.current-menu-item>a, .main-navigation ul li.current_page_item>a {
+    color: #000;
+    }
+
+    .main-navigation ul li a {
+      color: #000;
+        display: block;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .main-navigation ul li.menu-item-has-children>a {
+        padding-right: 30px;
+    }
+
+    .main-navigation ul ul {
+        display: none;
+        position: static;
+        width: 100%;
+        opacity: 1;
+        visibility: visible;
+        padding-left: 0;
+        padding-right: 0;
+        background: rgba(0, 0, 0, 0.03);
+        -webkit-transition: none;
+        -moz-transition: none;
+        transition: none;
+    }
+
+    .main-navigation ul.nav-menu>li>ul::before,
+    .main-navigation ul.nav-menu>li>ul::after {
+        display: none;
+    }
+
+    .main-navigation ul ul li {
+        background: none;
+        margin-top: 0;
+    }
+
+    .main-navigation ul li .submenu-toggle {
+        right: 10px;
+        -webkit-transition: all ease 0.35s;
+        -moz-transition: all ease 0.35s;
+        transition: all ease 0.35s;
+    }
+
+    .main-navigation ul ul li .submenu-toggle {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    .main-navigation ul li.active>.submenu-toggle {
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    .main-navigation ul ul li a {
+        border-width: 0 0 1px 0;
+    }
+
+
+
+/*----------------------My Menu Mobile End-----------------*/
+
+
+    /*==========================
+    STICKY HEADER
+    ==========================*/
+    .sticky-header .main-navigation .toggle-button::before {
+        display: none;
+    }
+
+    .sticky-header .main-navigation ul.nav-menu>li>.submenu-toggle {
+        top: 17px;
+    }
+
+    .sticky-header .main-navigation ul.nav-menu>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+        .sticky-header .main-navigation {
+        flex: initial;
+    }
+
+}
+
+/* Fixes for the toggle button */
+@media only screen and (max-width: 1024px) {
+    .main-navigation .toggle-button .toggle-bar:first-of-type {
+        top: -17px;
+    }
+}
+
+
+
+
+
+
+
+
