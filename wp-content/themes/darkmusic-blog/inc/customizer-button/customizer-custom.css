@@ -1,0 +1,27 @@
+    /*------------------Customizer CSS-----*/
+
+.premium-info h2 {
+    color: #f90000;
+}
+
+.dashicons-yes:before {
+    content: "\f147";
+    color: #f90000;
+}
+
+
+.premium-info a.button.button-primary {
+
+    margin-top: 10px
+    font-size: 15px; 
+    background: #f90000;
+    border-color: #f90000;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+a.button.alignright {
+    color: #f90000;
+    border-color: #f90000;
+}

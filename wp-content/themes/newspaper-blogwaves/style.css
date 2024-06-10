@@ -1,0 +1,302 @@
+/*
+ Theme Name:   Newspaper Blogwaves
+ Theme URI:    
+ Description:  Newspaper Blogwaves is child theme of blogwaves blog theme. Masonry Blogwaves is free, personal, elegent WordPress blog theme. Masonry Masonry Blogwaves theme having setting in customizer and can check live change of settings. Bloagwaves having topbar header, social icons, sidebar features and many more features. Masonry Blogwaves is a perfect responsive magazine style WordPress theme. This theme is suitable for news, newspaper, magazine, publishing, business and any kind of sites. Blogwave is a 100% GPL and minimal WordPress blog theme. Also theme is Gutenberg ready. So it will work fie with the latest version of WordPress. Theme is compatible with all blocks and patterns of WordPress. This theme is developed based on customizer settings. You can see the live changes that you have made in customizer. Blogwave also comes with added custom widgets for author, featured posts and social icons. It has top level menu, social icons, slider, promotional banner, sidebar option & many more other features. In addition, it has copyright text, go to the top, footer widgets, blog page options, related posts, sidebar, etc. This theme is lightweight and easy to use theme for travel blog, food blog, technology blog and fashion blog or any type of news website. You can also use this theme for personal blog and magazine sites too. Furthermore, it comes with demo data to make the site like the demo, detailed documentation including video and text, free support via chat and forum. It is developed by the experts WordPress developers so that you will never look for alternatives after using this theme. Try this awesome and carefully crafted theme today.
+ Author:       blogwp
+ Author URI:   
+ Template:     blogwaves
+ Version:      1.0.1 
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         left-sidebar, right-sidebar, custom-logo, custom-menu, featured-images, footer-widgets, custom-colors, custom-header, theme-options, threaded-comments, blog
+ Text Domain:  masonry-blogwaves
+*/
+*{
+font-family: 'Acme', sans-serif;
+}
+
+.child-menu{
+    background: #CFF5E7 !important;
+}
+.wp-main-header .nav-brand h1.site-title{
+    margin: 0;
+    text-align: left;
+    margin: -18px;
+}
+.wp-main-header .blogwave-site-naming-wrapper{
+    margin-bottom: 0px;
+    padding: 20px 0;
+    width: 100%;
+}
+.wp-blog-section .pagination ul>.current{
+    background: #004953;
+    border: #004953;
+}
+.wp-blog-section .blog-wrap .content-part .category-name a{
+    background: #004953;
+    border: #004953;
+}
+.comments-area .comment-body div.reply a:hover{
+    color: #004953;
+}
+.comment-meta .fn a:hover{
+    color: #004953;
+}
+.comment-form p>label span.required{
+    color: #004953 !important;
+}
+.comment-form .form-submit .submit:hover{
+    background: #004953 !important;
+    color: #fff;
+}
+.wp-blog-section .blog-wrap .post-navigation .post-prev a:hover, .post-navigation .post-next a:hover{
+    color: #004953 !important;
+}
+.wp-blog-section .wp-block-categories li a:before{
+    color: #004953;
+}
+.wp-main-header .blogwave-site-naming-wrapper a{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 15px !important;
+}
+.text-left{
+    padding-left: 4px !important;
+}
+.site-title a:hover{
+    text-decoration: none;
+    color: #004953;
+}
+.wp-blog-section .widget_search .wp-block-search__button, .wp-blog-section .search-form .search-submit{
+    background: #004953;
+}
+.wp-blog-section .widget_search .wp-block-search__label:after, .wp-blog-section .sidebar .wp-block-group .wp-block-group__inner-container h2:after, .wp-blog-section .sidebar .sidebar-title .title:after{
+    background: #004953;
+}
+.wp-blog-section .blog-meta li i{
+    color: #004953;
+}
+.footer-section-child .copyright-footer-child {
+    background: #004953; !important;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.wp-main-header .wp-topbar-menu .topbar-right ul li a{
+    background: #CFF5E7;
+    color: #000 !important;
+    font-size: 18px;
+}
+#myBtn{
+    background: #000;
+}
+#myBtn:hover{
+    background: #00693E;
+}
+:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){
+    border: 0px solid #000 !important;
+}
+.main-navigation li li:hover, .main-navigation li li.focus{
+    background: #004953;
+}
+.footer-section-child .copyright-footer-child p {
+    color: #ffffff;
+    margin: 0;
+}
+.wp-blog-section .pagination .page-numbers{
+    padding: 4px 14px;
+}
+.wp-blog-section .widget_search .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button{
+    padding: 0em 1em !important;
+    border-radius: 10px;
+}
+#wp-block-search__input-1{
+    border: 1px solid #666;
+    border-radius: 30px;
+}
+.wp-blog-section .wp-block-archives li a:before{
+    color: #004953;
+}
+.wp-main-header .child-menu .topbar-right ul li a {
+    border-radius: 50%;
+}
+.comments-area .comment-body div.reply a{
+    color: #004953;
+}
+.wp-blog-section .blog-meta li a {
+    font-size: 15px;
+}
+.wp-blog-section .blog-meta{
+    display: inline-block;
+}
+.comment-content a{
+    color: #004953;
+}
+.menu-bg #top-menu{
+    background:  #004953 !important;
+    text-align: left;
+}
+.wp-main-header .wp-topbar-menu .topbar-left ul li span{
+    margin-left: 17px !important;
+}
+.text-center p{
+    text-align: center;
+}
+.wp-main-header .blogwave-site-naming-wrapper p{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.wp-main-header .wp-topbar-menu ul.menu li a:after{
+    background: #004953;
+}
+.wp-blog-section .blog-meta li a {
+    color: #000;
+}
+
+.wp-blog-section .blog-meta li a.url{
+    font-size: 16px;
+}
+ul.blog-meta li{
+    display: inline-block;
+}
+.widget-area li a{
+    color: #000;
+}
+
+.wp-blog-section .blog-child-wrap .content-part {
+    padding: 0px 25px 45px;
+}
+
+.wp-blog-section .blog-child-wrap .content-part .title:before {
+    left: -30px;
+}
+
+.content-part a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.logged-in-as a{
+    color: #000;
+}
+
+.blog-meta .byline a{
+    text-decoration: none !important;
+}
+.blog-meta .posted-on a{
+    text-decoration: none !important;
+}
+
+.wp-blog-section .blog-child-wrap .content-part h3 a {
+    text-decoration: none;
+}
+
+.wp-blog-section .blog-child-wrap .content-part .read-more {
+    text-decoration: none;
+    border: 1px solid #a5a5a2;
+    padding: 5px 8px 7px 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    background: #f2f6f7;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.wp-blog-section .blog-child-wrap .content-part .read-more:hover{
+    background: #004953;
+    color: #fff;
+    border: #004953;
+}
+
+.wp-main-header .wp-topbar-menu {
+    border-bottom: 1px solid #ebe8e8;
+}
+
+.wp-blog-section .blog-child-wrap .content-part .category-name a {
+    text-decoration: none;
+}
+
+.wp-blog-section .blog-child-wrap .post-tags a {
+    text-decoration: none;
+
+}
+
+.wp-blog-section .blog-child-wrap .post-navigation .post-prev a, .post-navigation .post-next a {
+    text-decoration: none;
+}
+
+.wp-block-tag-cloud a{
+    padding: 10px 20px 10px 0px;
+    line-height: 44px;
+    font-weight: 600;
+    font-size: 15px !important;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    color: #000;
+}
+
+.column-2{ width: auto; height: auto; margin: 0 0 0 0px; }
+
+.blog-child-wrap{ width: 335px; height: auto; float: left; margin: 0 0 40px 20px; border-radius: 5px; }
+
+.wp-blog-section .blog-child-wrap .content-part .title:before {
+    display: none;
+}
+
+.wp-blog-section .blog-child-wrap .content:before {
+    display: none;
+}
+
+.blog-child-wrap {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
+.comment-metadata a{
+    color: #000;
+}
+
+.url{
+    color: #000;
+}
+
+.main-navigation .menu-item-has-children>a:after {
+    top: 23px;
+}
+
+.wp-block-latest-posts a{
+    color: #000;
+}
+
+@media only screen and (max-width: 991px){
+.main-navigation {
+    background-color: #000;
+    padding: 0;
+}
+.main-navigation li a{
+    color: #fff;
+}
+
+.menu-toggle{
+    color: #fff;
+}
+
+.dropdown-toggle {
+    
+    color: #fff;
+}
+
+.main-navigation ul {
+    background: #000;
+}
+
+.dropdown-toggle::after {
+    position: initial;
+    top: 8px;
+    left: 65px;
+    content: "\f067";
+    font-family: 'FontAwesome';
+    border-top: navajowhite;
+    border-right: none;
+    border-bottom: 0;
+    border-left: none;
+}
+
+
+}

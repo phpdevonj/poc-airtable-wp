@@ -1,0 +1,23 @@
+
+2024-02-22 11:20:08 log :: Starting importer...
+2024-02-22 11:20:13 log :: Record ID recFE2biiMcpzZzbJ
+2024-02-22 11:20:13 log :: - Found matching content, ID 102
+2024-02-22 11:20:13 log :: - No update needed
+2024-02-22 11:20:13 log :: Record ID recIugux3TYJUJFpT
+2024-02-22 11:20:13 log :: - Found matching content, ID 125
+2024-02-22 11:20:13 log :: - Update record recIugux3TYJUJFpT
+2024-02-22 11:20:13 log :: Record ID recOkdJMvcnNj7d2t
+2024-02-22 11:20:13 log :: - Found matching content, ID 42
+2024-02-22 11:20:13 log :: - No update needed
+2024-02-22 11:20:13 log :: Record ID recSRKdsWzUoffeup
+2024-02-22 11:20:13 log :: - Found matching content, ID 84
+2024-02-22 11:20:13 log :: - No update needed
+2024-02-22 11:20:13 log :: Record ID recnVlhg39UdRLVLh
+2024-02-22 11:20:13 log :: - Found matching content, ID 85
+2024-02-22 11:20:13 log :: - No update needed
+2024-02-22 11:20:13 log :: Record ID rectcsWeB4VhDh2kJ
+2024-02-22 11:20:13 log :: - Found matching content, ID 86
+2024-02-22 11:20:13 log :: - Update record rectcsWeB4VhDh2kJ
+2024-02-22 11:20:13 log :: - Import media attOFvqf5MPVIq3BY
+2024-02-22 11:20:13 log :: - Create media attOFvqf5MPVIq3BY
+2024-02-22 11:20:15 log :: - Success media 132

@@ -1,0 +1,13 @@
+
+2024-02-15 08:03:54 log :: Starting importer...
+2024-02-15 08:03:57 log :: Record ID recOkdJMvcnNj7d2t
+2024-02-15 08:03:57 log :: - Create record recOkdJMvcnNj7d2t
+2024-02-15 08:03:57 log :: Content, title, and excerpt are empty.
+2024-02-15 08:03:57 log :: Record ID recnVlhg39UdRLVLh
+2024-02-15 08:03:57 log :: - Create record recnVlhg39UdRLVLh
+2024-02-15 08:03:57 log :: - Import media attZC6i4yloPPWX5Q
+2024-02-15 08:03:57 log :: - Create media attZC6i4yloPPWX5Q
+2024-02-15 08:03:58 log :: - Success media 38
+2024-02-15 08:03:58 log :: Record ID rectcsWeB4VhDh2kJ
+2024-02-15 08:03:58 log :: - Found matching content, ID 34
+2024-02-15 08:03:58 log :: - No update needed
